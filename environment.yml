@@ -1,0 +1,22 @@
+name: tess-provenance-rasti
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - numpy
+  - pandas
+  - scipy
+  - pyarrow
+  - scikit-learn
+  - matplotlib
+  - astropy=7.2.0
+  - astroquery
+  - requests
+  - urllib3
+  - jupyter
+  - ipykernel
+  - pip
+  - pip:
+      - lightkurve==2.5.1

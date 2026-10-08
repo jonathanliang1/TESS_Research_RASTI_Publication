@@ -1,0 +1,7 @@
+Metric,Expected,Observed,Tolerance,Difference,WithinTolerance
+matched_star_count,1355.0,1355.0,0.0,0.0,True
+test_star_count,407.0,407.0,0.0,0.0,True
+QLP_accuracy,0.68059,0.6805896805896806,0.0005,-3.194103194159581e-07,True
+QLP_balanced_accuracy,0.41711,0.41711035666515117,0.0005,3.566651511910379e-07,True
+TESSCut_accuracy,0.518428,0.5184275184275184,0.0005,-4.815724815587785e-07,True
+TESSCut_balanced_accuracy,0.26459,0.2645903547872726,0.0005,3.5478727261617493e-07,True

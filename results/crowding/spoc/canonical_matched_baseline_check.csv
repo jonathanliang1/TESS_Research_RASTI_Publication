@@ -1,0 +1,7 @@
+Metric,Expected,Observed,Tolerance,Difference,WithinTolerance
+matched_star_count,506.0,506.0,0.0,0.0,True
+test_star_count,152.0,152.0,0.0,0.0,True
+SPOC_accuracy,0.7631578947368421,0.7631578947368421,0.0005,0.0,True
+SPOC_balanced_accuracy,0.571,0.5706796948799012,0.0005,-0.00032030512009872947,True
+TESSCut_accuracy,0.631578947368421,0.631578947368421,0.0005,0.0,True
+TESSCut_balanced_accuracy,0.387,0.38684456238635806,0.0005,-0.00015543761364195108,True

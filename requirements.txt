@@ -1,0 +1,33 @@
+# Core numerical/data stack
+numpy
+pandas
+scipy
+pyarrow
+
+# Machine learning
+scikit-learn
+
+# Astronomy
+astropy==7.2.0
+astroquery
+lightkurve==2.5.1
+
+# Plotting
+matplotlib
+
+# Network access used by catalogue/archive query stages
+requests
+urllib3
+
+# Notebook execution
+jupyter
+ipykernel
+
+# Notes:
+# - The analyses were run with Python 3.13.
+# - Exact versions for packages other than astropy and lightkurve were not
+#   recorded in the supplied final notebooks, so they are intentionally not
+#   fabricated here.
+# - For archival reproduction, consider replacing unpinned entries with the
+#   exact versions from the original analysis environment (e.g. `pip freeze`)
+#   if that environment is still available.

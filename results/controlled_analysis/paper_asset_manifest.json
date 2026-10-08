@@ -1,0 +1,39 @@
+{
+  "analysis_name": "RASTI paper asset generation",
+  "models_refitted": false,
+  "source_simulation_manifest": "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/monte_carlo_run_manifest.json",
+  "source_ablation_manifest": "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/metadata_ablation_run_manifest.json",
+  "split_count": 100,
+  "permutation_split_count": 20,
+  "full_feature_count": 39,
+  "ablated_feature_count": 33,
+  "removed_observational_features": [
+    "QualityScore",
+    "CadenceCount",
+    "TimeSpanDays",
+    "MedianCadenceDays",
+    "OriginalFluxMedian",
+    "OriginalFluxStd"
+  ],
+  "tables": [
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/tables_output/repeated_performance_output.tex",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/tables_output/provenance_observational_feature_ablation_output.tex",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/tables_output/importance_stability_output.tex",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/tables_output/per_class_spoc_output.tex",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/tables_output/per_class_qlp_output.tex"
+  ],
+  "figures": [
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/paired_metric_gaps_output.pdf",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/paired_metric_gaps_output.png",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/per_class_recall_gaps_output.pdf",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/per_class_recall_gaps_output.png",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/importance_stability_output.pdf",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/importance_stability_output.png"
+  ],
+  "audit_files": [
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/analysis_output/aggregate_metrics_output.csv",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/analysis_output/per_class_metrics_output.csv",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/analysis_output/importance_pairwise_correlations_output.csv",
+    "/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/analysis_output/importance_correlation_summary_output.csv"
+  ]
+}

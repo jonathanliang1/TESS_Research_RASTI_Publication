@@ -1,0 +1,6 @@
+PaperFigure,Output,SavedSource,Selection
+5,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/spoc_tesscut_rf_rank_shifts.png,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/monte_carlo_rf_feature_importance.parquet,"SPOC_vs_TESSCut, SplitSeed=42, RFImportance"
+7,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/qlp_tesscut_rf_rank_shifts.png,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/monte_carlo_rf_feature_importance.parquet,"QLP_vs_TESSCut, SplitSeed=42, RFImportance"
+8,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/paired_metric_gaps_output.pdf,full and ablated paired-split summaries,"100 paired splits, aggregate metrics"
+9,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/per_class_recall_gaps_output.pdf,full and ablated family test metrics,"100 paired splits, class recall"
+10,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/paper_assets_output/figures_output/importance_stability_output.pdf,/data/projects/TESS-research/summary/controlled_analysis_monte_carlo_v2/monte_carlo_permutation_importance_summary.csv,20 selected splits; cross/within rank correlations
